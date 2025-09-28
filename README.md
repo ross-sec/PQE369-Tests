@@ -174,9 +174,9 @@ This project demonstrates significant advances in post-quantum cryptography thro
 - **Eyal Atias** - Research Partner, Hooking LTD
 
 ### **Institution**
-**Ross Technologies Research Lab** - AI and Quantum Technologies Research Company
+**Ross Technologies Research Lab** - A.I. and Quantum Technologies Research Company
 <br/>
-**Hooking LTD** - AI Research Company
+**Hooking LTD** - Cyber & Software Company.
 
 ---
 *PQE-369: Where mathematics meets quantum resistance* 🔐✨
