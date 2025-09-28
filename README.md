@@ -133,7 +133,7 @@ Quantum Resistance: 0.738
 - **3-Layer Architecture**: LWE + Non-Abelian + Hybrid
 - **Multi-Level Security**: 128/192/256-bit in one system
 - **Quantum Resistance**: Validated on IBM quantum hardware
-- **Tesla Optimization**: Vortex mathematics integration
+- **Optimization**: Vortex mathematics integration
 
 ### **📊 Validation Metrics**
 
