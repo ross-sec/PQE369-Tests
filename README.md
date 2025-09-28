@@ -28,7 +28,7 @@
 - **Real-time performance monitoring** with 780 ops/sec IND-Style performance
 - **Minimal memory footprint** (1.4 MB per operation)
 - **Superior test coverage** with IBM Quantum hardware validation (0.738 resistance score)
-- **Tesla-optimized circuits** with 15-467% security enhancement
+- **Optimized circuits** with 15-467% security enhancement
 
 ### CRYSTALS-Dilithium (Digital Signatures)
 
