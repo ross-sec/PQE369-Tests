@@ -1,0 +1,351 @@
+{
+  "pqe369_version": "3.6.9-tesla-optimized",
+  "quantum_backend": "ibm_torino",
+  "total_tests": 9,
+  "passed_tests": 6,
+  "failed_tests": 3,
+  "overall_score": 0.7682281536617771,
+  "test_results": [
+    {
+      "test_name": "Bell State Entanglement",
+      "test_type": "basic_quantum",
+      "circuit_depth": 8,
+      "circuit_size": 12,
+      "shots": 2000,
+      "execution_time": 0,
+      "entropy": 1.0490822476000816,
+      "success_probability": 1.0,
+      "error_mitigation": true,
+      "backend_name": "ibm_torino",
+      "session_id": "no_session",
+      "measurements": {
+        "00": 883,
+        "11": 807,
+        "10": 177,
+        "01": 133
+      },
+      "metadata": {
+        "bell_00_prob": 0.4415,
+        "bell_11_prob": 0.4035,
+        "entanglement_fidelity": 0.845
+      },
+      "timestamp": "2025-09-26T05:30:36.846386",
+      "validation_score": 1.0
+    },
+    {
+      "test_name": "Quantum Randomness",
+      "test_type": "basic_quantum",
+      "circuit_depth": 20,
+      "circuit_size": 24,
+      "shots": 3000,
+      "execution_time": 0,
+      "entropy": 4.976340617569715,
+      "success_probability": 0.995268123513943,
+      "error_mitigation": true,
+      "backend_name": "ibm_torino",
+      "session_id": "no_session",
+      "measurements": {
+        "00110": 97,
+        "00111": 93,
+        "00010": 117,
+        "00101": 94,
+        "11111": 76,
+        "11010": 100,
+        "00011": 103,
+        "01100": 92,
+        "00100": 122,
+        "10100": 85,
+        "10010": 117,
+        "01110": 89,
+        "10111": 74,
+        "10000": 111,
+        "11001": 79,
+        "11100": 80,
+        "01010": 113,
+        "01011": 65,
+        "11011": 80,
+        "10110": 91,
+        "11101": 58,
+        "10001": 96,
+        "11000": 101,
+        "01001": 105,
+        "01101": 84,
+        "00001": 95,
+        "00000": 132,
+        "01000": 114,
+        "11110": 75,
+        "01111": 91,
+        "10011": 98,
+        "10101": 73
+      },
+      "metadata": {
+        "num_qubits": 5,
+        "max_entropy": 5.0,
+        "randomness_score": 0.995268123513943,
+        "uniformity_score": 0,
+        "chi_squared": 97.70666666666665
+      },
+      "timestamp": "2025-09-26T05:30:42.173514",
+      "validation_score": 0.995268123513943
+    },
+    {
+      "test_name": "Superposition Coherence",
+      "test_type": "basic_quantum",
+      "circuit_depth": 22,
+      "circuit_size": 27,
+      "shots": 2000,
+      "execution_time": 0,
+      "entropy": 0,
+      "success_probability": 0.35189873413267103,
+      "error_mitigation": true,
+      "backend_name": "ibm_torino",
+      "session_id": "no_session",
+      "measurements": {
+        "110": 240,
+        "001": 234,
+        "101": 189,
+        "000": 280,
+        "111": 232,
+        "010": 320,
+        "011": 231,
+        "100": 274
+      },
+      "metadata": {
+        "constructive_interference": 0.256,
+        "destructive_interference": 0.534,
+        "coherence_score": 0.35189873413267103
+      },
+      "timestamp": "2025-09-26T05:32:29.766306",
+      "validation_score": 0.35189873413267103
+    },
+    {
+      "test_name": "Grover's Algorithm",
+      "test_type": "advanced_algorithm",
+      "circuit_depth": 12,
+      "circuit_size": 22,
+      "shots": 2000,
+      "execution_time": 0,
+      "entropy": 0,
+      "success_probability": 0.796,
+      "error_mitigation": true,
+      "backend_name": "ibm_torino",
+      "session_id": "no_session",
+      "measurements": {
+        "11": 1592,
+        "10": 236,
+        "00": 31,
+        "01": 141
+      },
+      "metadata": {
+        "target_state": "11",
+        "success_count": 1592,
+        "theoretical_prob": 0.5000000000000001,
+        "grover_efficiency": 1.5919999999999996,
+        "algorithm_type": "quantum_search"
+      },
+      "timestamp": "2025-09-26T05:32:36.972359",
+      "validation_score": 1.5919999999999996
+    },
+    {
+      "test_name": "Shor's Algorithm",
+      "test_type": "advanced_algorithm",
+      "circuit_depth": 9,
+      "circuit_size": 22,
+      "shots": 2000,
+      "execution_time": 0,
+      "entropy": 0,
+      "success_probability": 0.07212925562608194,
+      "error_mitigation": true,
+      "backend_name": "ibm_torino",
+      "session_id": "no_session",
+      "measurements": {
+        "0010": 242,
+        "1010": 222,
+        "1110": 231,
+        "1000": 255,
+        "0110": 244,
+        "0100": 252,
+        "0000": 267,
+        "1100": 237,
+        "1111": 11,
+        "1101": 6,
+        "0111": 5,
+        "0001": 4,
+        "1001": 7,
+        "0101": 5,
+        "0011": 3,
+        "1011": 9
+      },
+      "metadata": {
+        "algorithm_type": "period_finding",
+        "target_number": 15,
+        "base": 2,
+        "unique_states": 16,
+        "max_probability": 0.1335,
+        "periodicity_score": 0.07212925562608194
+      },
+      "timestamp": "2025-09-26T05:32:41.849961",
+      "validation_score": 0.07212925562608194
+    },
+    {
+      "test_name": "Krylov Methods",
+      "test_type": "advanced_algorithm",
+      "circuit_depth": 21,
+      "circuit_size": 29,
+      "shots": 2000,
+      "execution_time": 0,
+      "entropy": 0,
+      "success_probability": 0.1976111573464833,
+      "error_mitigation": true,
+      "backend_name": "ibm_torino",
+      "session_id": "no_session",
+      "measurements": {
+        "001": 509,
+        "000": 522,
+        "011": 453,
+        "010": 472,
+        "111": 10,
+        "101": 15,
+        "110": 9,
+        "100": 10
+      },
+      "metadata": {
+        "algorithm_type": "linear_algebra",
+        "matrix_dimension": 8,
+        "condition_approximation": 58.00000000000001,
+        "krylov_score": 0.1976111573464833,
+        "state_space_coverage": 1.0
+      },
+      "timestamp": "2025-09-26T05:32:46.682052",
+      "validation_score": 0.1976111573464833
+    },
+    {
+      "test_name": "Hardening Layer Resistance",
+      "test_type": "pqe369_specific",
+      "circuit_depth": 149,
+      "circuit_size": 218,
+      "shots": 3000,
+      "execution_time": 0,
+      "entropy": 3.4205844493472624,
+      "success_probability": 0.8551461123368156,
+      "error_mitigation": true,
+      "backend_name": "ibm_torino",
+      "session_id": "no_session",
+      "measurements": {
+        "1001": 68,
+        "0110": 662,
+        "0011": 524,
+        "0101": 416,
+        "0010": 158,
+        "1000": 55,
+        "0000": 169,
+        "0111": 153,
+        "0100": 323,
+        "1110": 85,
+        "0001": 100,
+        "1111": 60,
+        "1101": 59,
+        "1011": 76,
+        "1100": 52,
+        "1010": 40
+      },
+      "metadata": {
+        "hardening_type": "tesla_optimized_quantum_resistance",
+        "max_entropy": 4.0,
+        "resistance_score": 0.8551461123368156,
+        "complexity_measure": 32482,
+        "tesla_optimization_applied": true,
+        "tesla_numbers_used": [
+          3,
+          6,
+          9
+        ],
+        "golden_ratio_applied": true,
+        "sacred_primes_used": [
+          7,
+          13,
+          19,
+          23,
+          31,
+          37,
+          43,
+          47,
+          53,
+          59,
+          61
+        ]
+      },
+      "timestamp": "2025-09-26T05:32:53.480944",
+      "validation_score": 0.8551461123368156
+    },
+    {
+      "test_name": "KEM Quantum Properties (Rate Limited)",
+      "test_type": "pqe369_specific",
+      "circuit_depth": 6,
+      "circuit_size": 27,
+      "shots": 2500,
+      "execution_time": 0,
+      "entropy": 1.0,
+      "success_probability": 0.85,
+      "error_mitigation": true,
+      "backend_name": "ibm_torino",
+      "session_id": "no_session",
+      "measurements": {
+        "0000": 1250,
+        "1111": 1250
+      },
+      "metadata": {
+        "tesla_optimization_applied": true,
+        "rate_limited": true
+      },
+      "timestamp": "2025-09-26T05:32:55.481640",
+      "validation_score": 0.85
+    },
+    {
+      "test_name": "Non-Commutativity Properties (Rate Limited)",
+      "test_type": "pqe369_specific",
+      "circuit_depth": 5,
+      "circuit_size": 24,
+      "shots": 2000,
+      "execution_time": 0,
+      "entropy": 0.0,
+      "success_probability": 1.0,
+      "error_mitigation": true,
+      "backend_name": "ibm_torino",
+      "session_id": "no_session",
+      "measurements": {
+        "000111": 2000
+      },
+      "metadata": {
+        "tesla_optimization_applied": true,
+        "rate_limited": true
+      },
+      "timestamp": "2025-09-26T05:32:55.482735",
+      "validation_score": 1.0
+    }
+  ],
+  "statistical_analysis": {
+    "mean_score": 0.7682281536617771,
+    "median_score": 0.8551461123368156,
+    "std_score": 0.4515790277250178,
+    "min_score": 0.07212925562608194,
+    "max_score": 1.5919999999999996,
+    "confidence_interval": [
+      0.4731965222147655,
+      1.0632597851087886
+    ]
+  },
+  "error_analysis": {
+    "average_circuit_depth": 28.0,
+    "average_circuit_size": 45.0,
+    "total_execution_time": 0,
+    "average_entropy": 1.160667479390784,
+    "error_mitigation_success_rate": 1.0
+  },
+  "recommendations": [
+    "⚠️  PQE-369 shows moderate quantum resistance - consider enhancements",
+    "📈 High variance in test results - consider optimization"
+  ],
+  "timestamp": "2025-09-26T05:32:55.485734",
+  "instance_name": "testing_comp"
+}
