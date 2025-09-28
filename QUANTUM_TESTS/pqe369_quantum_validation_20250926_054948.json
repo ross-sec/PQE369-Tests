@@ -254,26 +254,8 @@
         "max_entropy": 4.0,
         "resistance_score": 0.9965165026615144,
         "complexity_measure": 666,
-        "tesla_optimization_applied": true,
-        "tesla_numbers_used": [
-          3,
-          6,
-          9
-        ],
+        "tesla_optimization_applied": true,,
         "golden_ratio_applied": true,
-        "sacred_primes_used": [
-          7,
-          13,
-          19,
-          23,
-          31,
-          37,
-          43,
-          47,
-          53,
-          59,
-          61
-        ]
       },
       "timestamp": "2025-09-26T05:49:34.525492",
       "validation_score": 0.9965165026615144
@@ -324,19 +306,6 @@
           9
         ],
         "golden_ratio_applied": true,
-        "sacred_primes_used": [
-          7,
-          13,
-          19,
-          23,
-          31,
-          37,
-          43,
-          47,
-          53,
-          59,
-          61
-        ]
       },
       "timestamp": "2025-09-26T05:49:41.603562",
       "validation_score": 0.4889555416786919
@@ -372,26 +341,8 @@
         "total_measurements": 2000,
         "different_orders_count": 2000,
         "same_orders_count": 0,
-        "tesla_optimization_applied": true,
-        "tesla_numbers_used": [
-          3,
-          6,
-          9
-        ],
+        "tesla_optimization_applied": true,,
         "golden_ratio_applied": true,
-        "sacred_primes_used": [
-          7,
-          13,
-          19,
-          23,
-          31,
-          37,
-          43,
-          47,
-          53,
-          59,
-          61
-        ]
       },
       "timestamp": "2025-09-26T05:49:48.086109",
       "validation_score": 1.0
